@@ -4,6 +4,8 @@
 
 2023.08.16-2023.09.15
 
+![팀버 썸네일](https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/eaf90845-40a0-44bc-9a8d-d7ad7685f19d)
+
 ### 🧑🏻‍💻 팀원
 
 | 전해강 | 제준영 | 임수빈 | 양현서 | 김소정   |
@@ -38,7 +40,7 @@ https://www.teamver.kr
 
 시연 영상은 [여기](https://youtu.be/eVxusmxg6hw)에서 확인할 수 있습니다. 
 
-![시연영상 썸네일](https://github.com/jeonhaekang/teamver/assets/130683029/6965fbbd-df1f-40d5-88c9-8a37db68fc8d)
+<img width="960" alt="스크린샷 2023-09-20 시간: 17 26 51" src="https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/5ea5cf03-b2ed-4782-8e72-2582e7deae8d">
 
 ### 🧩 기술스택
 
@@ -47,6 +49,17 @@ https://www.teamver.kr
 ### 🏗️ Project Structure
 
 ![스크린샷 2023-09-14 오후 8 53 43](https://github.com/jeonhaekang/teamver/assets/130683029/02a40a08-be38-49c2-a7bb-e223651273d8)
+
+### 🔗 ERD Diagram
+
+<details>
+<summary>ERD Diagram 펼쳐보기</summary>
+
+<img width="960" alt="스크린샷 2023-09-20 시간: 17 35 53" src="https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/99b542a7-3ecf-4c5e-b9a4-ee9cc290ec9a">
+<img width="960" alt="스크린샷 2023-09-20 시간: 17 35 42" src="https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/29c40d0d-eb42-486f-835f-a1cb5fa84b20">
+<img width="960" alt="스크린샷 2023-09-20 시간: 17 38 31" src="https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/ede51bdd-fd8c-4a30-aebb-61d51c53d635">
+
+</details>
 
 ### 📑 API Table
 
