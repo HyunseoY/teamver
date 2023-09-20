@@ -6,11 +6,15 @@
 
 ![팀버 썸네일](https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/eaf90845-40a0-44bc-9a8d-d7ad7685f19d)
 
+---
+
 ### 🧑🏻‍💻 팀원
 
 | 전해강 | 제준영 | 임수빈 | 양현서 | 김소정   |
 | ------ | ------ | ------ | ------ | -------- |
 | `리더` | 부리더 | 팀원   | 팀원   | 디자이너 |
+
+---
 
 ### 🌈 프로젝트 소개
 
@@ -24,9 +28,13 @@
 
 > 카드 스와이프 방식으로 마음에 드는 동료나 프로젝트는 오른쪽으로 찜! 아쉬우면 왼쪽으로 pass! 필요한 정보를 재밌게 탐색해보세요.
 
+---
+
 ### 📍 배포 주소
 
 https://www.teamver.kr
+
+---
 
 ### 📱 MVP 기능
 
@@ -36,19 +44,27 @@ https://www.teamver.kr
 4. 채팅을 통한 소통 후 프로젝트 초대
 5. 다국어 기능 지원
 
+---
+
 ### 🎬 시연영상
 
 시연 영상은 [여기](https://youtu.be/eVxusmxg6hw)에서 확인할 수 있습니다. 
 
 <img width="960" alt="스크린샷 2023-09-20 시간: 17 26 51" src="https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/5ea5cf03-b2ed-4782-8e72-2582e7deae8d">
 
+---
+
 ### 🧩 기술스택
 
 <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"><img src="https://img.shields.io/badge/reactquery-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"><img src="https://img.shields.io/badge/zustand-764ABC?style=for-the-badge&logo=&logoColor=white"><img src="https://img.shields.io/badge/emotion-DB7093?style=for-the-badge&logo=emotion&logoColor=white"><img src="https://img.shields.io/badge/supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
+---
+
 ### 🏗️ Project Structure
 
 ![스크린샷 2023-09-14 오후 8 53 43](https://github.com/jeonhaekang/teamver/assets/130683029/02a40a08-be38-49c2-a7bb-e223651273d8)
+
+---
 
 ### 🔗 ERD Diagram
 
@@ -60,6 +76,8 @@ https://www.teamver.kr
 <img width="960" alt="스크린샷 2023-09-20 시간: 17 38 31" src="https://github.com/HabitMonster/HabitMonster-FrontEnd/assets/130683029/ede51bdd-fd8c-4a30-aebb-61d51c53d635">
 
 </details>
+
+---
 
 ### 📑 API Table
 
@@ -174,6 +192,8 @@ https://www.teamver.kr
 | 알림 삭제 (오너)                                                                                                                                                                                                                                                                              | Notice   | deleteNoticeOwner            | `Delete` | id: number                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                          |
 
 </details>
+
+---
 
 ### 💫 Trouble Shootings
 
@@ -618,6 +638,8 @@ const { mutate: insertChatRequestMemberMutate } = useInsertChatRequestsMemberMut
 ```
 
 </details>
+
+---
 
 ### 👂🏻 UT 피드백 반영
 
