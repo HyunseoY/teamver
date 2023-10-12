@@ -103,12 +103,7 @@ export const useProfileEdit = () => {
 
   const validateNickName = debounce<({ target }: ChangeEvent<HTMLInputElement>) => void>(
     async ({ target: { value } }) => {
-      let nickname = value;
-
-      if (nickname.length > 16) {
-        nickname = nickname.slice(0, 16);
-        setValue("name", nickname, { shouldDirty: true });
-      }
+      const nickname = value;
 
       if (!nickname) {
         setSuccessMessage("");
