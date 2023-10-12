@@ -130,9 +130,7 @@ const ProjectEdit = () => {
                     value={
                       app.isStartIndefinite
                         ? t("미정")
-                        : (app.watch("startDate") &&
-                            dayjs(app.watch("startDate")).format("DD. MM. YYYY")) ||
-                          ""
+                        : dayjs(app.watch("startDate")).format("DD. MM. YYYY")
                     }
                     onClick={() => {
                       app.setEndDateIsOpen.off();
@@ -152,9 +150,7 @@ const ProjectEdit = () => {
                     value={
                       app.isEndIndefinite
                         ? t("미정")
-                        : (app.watch("endDate") &&
-                            dayjs(app.watch("endDate")).format("DD. MM. YYYY")) ||
-                          ""
+                        : dayjs(app.watch("endDate")).format("DD. MM. YYYY")
                     }
                     onClick={() => {
                       app.setStartDateIsOpen.off();
