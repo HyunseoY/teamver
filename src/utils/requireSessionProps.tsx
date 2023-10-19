@@ -1,6 +1,7 @@
 import type { Session } from "@supabase/auth-helpers-nextjs";
 import { createPagesServerClient } from "@supabase/auth-helpers-nextjs";
 import type { GetServerSideProps, GetServerSidePropsContext, GetServerSidePropsResult } from "next";
+import { selectProfile } from "~/states/server/profile";
 import type { Database } from "~/types/database";
 
 type GSSPWrapper = (
@@ -17,6 +18,19 @@ export const requireAuthentication = (gssp: GSSPWrapper): GetServerSideProps => 
     const {
       data: { session }
     } = await supabase.auth.getSession();
+
+    if (session) {
+      const profile = await selectProfile(session.user.id);
+
+      if (!profile) {
+        return {
+          redirect: {
+            destination: "/welcome",
+            statusCode: 302
+          }
+        };
+      }
+    }
 
     if (!session) {
       return {
