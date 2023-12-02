@@ -32,7 +32,7 @@
 
 ### 📍 배포 주소
 
-https://www.teamver.kr
+~~https://www.teamver.kr   배포중지~~
 
 ---
 
